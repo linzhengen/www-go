@@ -14,6 +14,6 @@ func main() {
 
 	http.Handle(*basePath, http.FileServer(http.Dir(*directory)))
 
-	log.Printf("Serving %s on http://0.0.0.0:%s%s\n", *directory, *basePath, *port)
+	log.Printf("Serving %s on http://0.0.0.0:%s%s\n", *directory, *port, *basePath)
 	log.Fatal(http.ListenAndServe(":"+*port, nil))
 }
