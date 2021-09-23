@@ -8,6 +8,3 @@ builds:
     goarch:
       - amd64
       - arm64
-archives:
-  - format: binary
-    name_template: '{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
