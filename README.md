@@ -1,4 +1,7 @@
 # www-go
+Simple static file server
+
+[![golangci-lint](https://github.com/linzhengen/www-go/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/linzhengen/www-go/actions/workflows/golangci-lint.yml)
 ## Usage
 ### Install
 ```
